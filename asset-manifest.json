@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/ArmeriaVolkov/static/css/main.8c9f7a3d.css",
-    "main.js": "/ArmeriaVolkov/static/js/main.e0bba92d.js",
-    "static/media/sporting-goods-and-guns.png": "/ArmeriaVolkov/static/media/sporting-goods-and-guns.0066e90d97783e5daa92.png",
-    "static/media/logo.png": "/ArmeriaVolkov/static/media/logo.4e36f61293ba83db94d2.png",
+    "main.css": "/ArmeriaVolkov/static/css/main.8ebf9b44.css",
+    "main.js": "/ArmeriaVolkov/static/js/main.c7c6e3b3.js",
+    "static/media/sporting-goods-and-guns2.png": "/ArmeriaVolkov/static/media/sporting-goods-and-guns2.cc2e28cde399d8a2eab1.png",
+    "static/media/oyetu.png": "/ArmeriaVolkov/static/media/oyetu.8661f197528607061292.png",
+    "static/media/jaja.png": "/ArmeriaVolkov/static/media/jaja.e8019ea97f28cedfa5cd.png",
+    "static/media/spam1.png": "/ArmeriaVolkov/static/media/spam1.c6c164553587ee8b5855.png",
     "static/media/bgMainSml.jpg": "/ArmeriaVolkov/static/media/bgMainSml.fe653916e8a634331a3b.jpg",
     "static/media/mauser.png": "/ArmeriaVolkov/static/media/mauser.ae6c665bbe3a80ec94de.png",
     "static/media/navy.png": "/ArmeriaVolkov/static/media/navy.a6fc02417a8b7ee5f258.png",
+    "static/media/logo3.png": "/ArmeriaVolkov/static/media/logo3.73ec92b288fa3aada86c.png",
     "static/media/cañondoble.png": "/ArmeriaVolkov/static/media/cañondoble.c327abb0a30ea566a5df.png",
     "static/media/litchfield.png": "/ArmeriaVolkov/static/media/litchfield.6abe5b771bc015807bdb.png",
     "static/media/repeticion.png": "/ArmeriaVolkov/static/media/repeticion.0926d4e3024d016f9607.png",
@@ -31,11 +34,11 @@
     "static/media/dobleaccion.png": "/ArmeriaVolkov/static/media/dobleaccion.6f9c1357285aa1bc0e3f.png",
     "static/media/munrepeticion.png": "/ArmeriaVolkov/static/media/munrepeticion.b92443a8e633d712ba96.png",
     "index.html": "/ArmeriaVolkov/index.html",
-    "main.8c9f7a3d.css.map": "/ArmeriaVolkov/static/css/main.8c9f7a3d.css.map",
-    "main.e0bba92d.js.map": "/ArmeriaVolkov/static/js/main.e0bba92d.js.map"
+    "main.8ebf9b44.css.map": "/ArmeriaVolkov/static/css/main.8ebf9b44.css.map",
+    "main.c7c6e3b3.js.map": "/ArmeriaVolkov/static/js/main.c7c6e3b3.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c9f7a3d.css",
-    "static/js/main.e0bba92d.js"
+    "static/css/main.8ebf9b44.css",
+    "static/js/main.c7c6e3b3.js"
   ]
 }
