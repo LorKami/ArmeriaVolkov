@@ -7,7 +7,7 @@ const Footer = () => {
     <div>
         <div className='Footer'>
             <div className='FooterImage'>
-                2023 - Armeria Volkova | By: LorKami
+                2023 - Armeria Volkova | By LorKami
             </div>
         </div>
     </div>
