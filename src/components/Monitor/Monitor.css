@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+.Monitor {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid rgb(123, 255, 0);  */
+}
+
+.PistolSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid rgb(255, 51, 0); */
+}
+
+.PistolSection h2 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: inherit;
+    white-space: nowrap;
+    word-break: break-word;
+    font-size: 44px;
+    line-height: 44px;
+    color: rgb(39, 39, 39);
+    font-family: 'Rye', cursive;
+}
+
+.WeaponSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    border: 3px solid black;
+}
+
+.Pistols {
+    flex: 0 32%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid rgb(123, 255, 0); */
+}
+
+.Pistols h2 {
+    font-size: 33px;
+    color: rgb(39, 39, 39);
+}
+
+.Pistols p, h3 {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Rye', cursive;
+    text-align: justify;
+    color: rgb(39, 39, 39);
+}
+
+.Pistols span {
+    font-style: italic;
+    color: rgb(39, 39, 39);
+}
+
+.Pistols img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: auto;
+}
+
+.WeaponImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
