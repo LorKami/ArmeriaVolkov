@@ -1,15 +1,15 @@
 import Home from "./pages/Home";
 
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <HashRouter>
+    <div className="App" basename={window.location.pathname || ''}>
+      <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+        <Route exact path="/" component={Home} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
