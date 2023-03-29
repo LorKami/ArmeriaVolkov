@@ -45,6 +45,11 @@
     justify-content: space-between;
     align-items: center;
     /* border: 2px solid rgb(123, 255, 0); */
+    transition: 0.2s ease-in-out;
+}
+
+.Pistols:hover {
+    transform: scale(1.01);
 }
 
 .Pistols h2 {
