@@ -2,7 +2,7 @@ import React from 'react'
 
 import '../Header/Header.css'
 
-import Logo from '../../images/logo.png'
+import Logo from '../../images/logo3.png'
 
 const Header = () => {
   return (

@@ -37,6 +37,11 @@ import munrevolver from '../../images/Armas/OtrosMunicion/munrevolver.png'
 import munrifle from '../../images/Armas/OtrosMunicion/munrifle.png'
 
 
+import oyetu from '../../images/Armas/oyetu.png'
+import jaja from '../../images/Armas/jaja.png'
+import spam1 from '../../images/Armas/spam1.png'
+
+
 const Monitor = () => {
   return (
     <div>
@@ -193,6 +198,12 @@ const Monitor = () => {
           <h3>Precio........................ <span>$ 170.00</span></h3>
         </div>
 
+        <div className='Pistols'>
+          <div className='WeaponImage'>
+          <img src={oyetu} />
+          </div>
+        </div>
+
       </div>
     </div>
 
@@ -227,6 +238,12 @@ const Monitor = () => {
           </div>
           <p>Pocas cosas hay en el mundo más fiables, a excepción de un leal caballo o un buen perro. Sin embargo, lo más probable es que estos últimos mueran, cosa que no hará un arma bien fabricada.</p>
           <h3>Precio........................ <span>$ 140.00</span></h3>
+        </div>
+
+        <div className='Pistols'>
+          <div className='WeaponImage'>
+          <img src={jaja} />
+          </div>
         </div>
 
         <div className='Pistols'>
@@ -315,6 +332,12 @@ const Monitor = () => {
           </div>
           <p>Rendimiento. Fiabilidad. Precisión. Estos cartuchos surten el efecto deseado y harán que los intrusos reconsideren su actitud.</p>
           <h3>Precio........................ <span>$ 0.50</span></h3>
+        </div>
+
+        <div className='Pistols'>
+          <div className='WeaponImage'>
+          <img src={spam1} />
+          </div>
         </div>
 
         <div className='Pistols'>
