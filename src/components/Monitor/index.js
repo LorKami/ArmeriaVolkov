@@ -172,7 +172,7 @@ const Monitor = () => {
         </div>
 
         <div className='Pistols'>
-          <h2>De Bombeo</h2>
+          <h2>Corredera</h2>
           <div className='WeaponImage'>
           <img src={Bombeo} />
           </div>
