@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 
+
+:root {
+    --transition: color 0.1s, background-color 0.2s ease-in-out;
+    --skill-bar-length: 1%;
+}
+
+
 .Monitor {
     display: flex;
     flex-direction: column;
@@ -36,7 +43,13 @@
     justify-content: center;
     align-items: center;
     width: 70%;
-    border: 3px solid black;
+    /* border: 3px solid black; */
+    border-color: #2e2e2e;
+    border-image: repeat;
+    border-image-slice: 14;
+    border-image-source: url(../../images/single_3.png);
+    border-style: solid;
+    border-width: 6px;
 }
 
 .Pistols {
@@ -48,9 +61,9 @@
     transition: 0.2s ease-in-out;
 }
 
-.Pistols:hover {
-    transform: scale(1.01);
-}
+/* .Pistols:hover {
+    transform: scale(1.004);
+} */
 
 .Pistols h2 {
     font-size: 33px;
@@ -66,7 +79,15 @@
 }
 
 .Pistols span {
+    /* font-style: italic; */
+    font-family: 'Rye', cursive;
+    font-size: 13px;
+    color: rgb(39, 39, 39);
+}
+
+.Price span {
     font-style: italic;
+    font-size: 17px;
     color: rgb(39, 39, 39);
 }
 
@@ -78,9 +99,142 @@
     height: auto;
 }
 
+.censored {
+    filter: blur(4px);
+}
+
 .WeaponImage {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.column {
+    display: grid;
+    /* gap: 0.5em; */
+    /* border: 2px solid rgb(123, 255, 0); */
+  }
+  
+  @media screen and (min-width: 720px) {
+    .column--left,
+    .column--right {
+      grid-template-rows: repeat(3, min-content) 1fr;
+    }
+  
+    .column--right {
+      grid-template-columns: repeat(3, 1fr);
+      align-items: start;
+    }
+  }
+
+.skills {
+    padding: 1em 0;
+}
+
+.skills__header {
+    position: relative;
+    width: 175px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.skills__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.3em;
+  }
+  
+  .skills__tech {
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+.skills__bar,
+.skills__bar::after {
+    position: relative;
+    width: 178px;
+    height: 12px;
+    /* background-color: rgba(190, 190, 190, 0.815); */
+    background-image: url(../../images/segment.png);
+    overflow: hidden;
+}
+
+.skills__bar::after {
+    content: '';
+    position: absolute;
+    left: -178px;
+    background-image: url(../../images/bar.png);
+    transition: var(--transition);
+    animation: skill-bar 2s forwards ease-in-out;
+  }
+
+  .skills__bar--5::after {
+    --skill-bar-length: 5%;
+  }
+  .skills__bar--10::after {
+    --skill-bar-length: 10%;
+  }
+  .skills__bar--15::after {
+    --skill-bar-length: 15%;
+  }
+  .skills__bar--20::after {
+    --skill-bar-length: 20%;
+  }
+  .skills__bar--25::after {
+    --skill-bar-length: 25%;
+  }
+  .skills__bar--30::after {
+    --skill-bar-length: 30%;
+  }
+  .skills__bar--35::after {
+    --skill-bar-length: 35%;
+  }
+  .skills__bar--40::after {
+    --skill-bar-length: 40%;
+  }
+  .skills__bar--45::after {
+    --skill-bar-length: 45%;
+  }
+  .skills__bar--50::after {
+    --skill-bar-length: 50%;
+  }
+  .skills__bar--55::after {
+    --skill-bar-length: 55%;
+  }
+  .skills__bar--60::after {
+    --skill-bar-length: 60%;
+  }
+  .skills__bar--65::after {
+    --skill-bar-length: 65%;
+  }
+  .skills__bar--70::after {
+    --skill-bar-length: 70%;
+  }
+  .skills__bar--75::after {
+    --skill-bar-length: 75%;
+  }
+  .skills__bar--80::after {
+    --skill-bar-length: 80%;
+  }
+  .skills__bar--85::after {
+    --skill-bar-length: 85%;
+  }
+  .skills__bar--90::after {
+    --skill-bar-length: 90%;
+  }
+  .skills__bar--95::after {
+    --skill-bar-length: 95%;
+  }
+  .skills__bar--100::after {
+    --skill-bar-length: 100%;
+  }
+  
+
+@keyframes skill-bar {
+    to {
+      transform: translateX(var(--skill-bar-length));
+    }
+  }
