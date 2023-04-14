@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "./static/css/main.25f9eaa2.css",
-    "main.js": "./static/js/main.143c7883.js",
-    "static/media/sporting-goods-and-guns2.png": "./static/media/sporting-goods-and-guns2.cc2e28cde399d8a2eab1.png",
+    "main.css": "./static/css/main.5616755f.css",
+    "main.js": "./static/js/main.a7e156f5.js",
+    "static/media/sporting-goods-and-guns3.png": "./static/media/sporting-goods-and-guns3.f2d41ebbb610a515bc66.png",
     "static/media/oyetu.png": "./static/media/oyetu.8661f197528607061292.png",
     "static/media/jaja.png": "./static/media/jaja.e8019ea97f28cedfa5cd.png",
     "static/media/spam1.png": "./static/media/spam1.c6c164553587ee8b5855.png",
+    "static/media/autoblocante.png": "./static/media/autoblocante.8d3bf82f45b0195aeaac.png",
+    "static/media/m1899.png": "./static/media/m1899.d6638add1cbb7c97d182.png",
     "static/media/bgMainSml.jpg": "./static/media/bgMainSml.fe653916e8a634331a3b.jpg",
     "static/media/mauser.png": "./static/media/mauser.ae6c665bbe3a80ec94de.png",
     "static/media/navy.png": "./static/media/navy.a6fc02417a8b7ee5f258.png",
@@ -15,6 +17,7 @@
     "static/media/litchfield.png": "./static/media/litchfield.6abe5b771bc015807bdb.png",
     "static/media/repeticion.png": "./static/media/repeticion.0926d4e3024d016f9607.png",
     "static/media/lancaster.png": "./static/media/lancaster.c0f968977d126309e9b4.png",
+    "static/media/bar2.png": "./static/media/bar2.05f17f8e28decf8cc142.png",
     "static/media/carabina.png": "./static/media/carabina.123f8e3d3bc154bbb174.png",
     "static/media/semiautomatica.png": "./static/media/semiautomatica.fba4c9c3430d59f8408e.png",
     "static/media/springfield.png": "./static/media/springfield.8b72e07fc007facad2db.png",
@@ -25,6 +28,7 @@
     "static/media/munpist.png": "./static/media/munpist.d5d8ffc2dcf319189dfa.png",
     "static/media/munrifle.png": "./static/media/munrifle.c369e257664d12287a8f.png",
     "static/media/varmint.png": "./static/media/varmint.3dac99f428d34db4099b.png",
+    "static/media/single_3.png": "./static/media/single_3.08201ea73b319842d280.png",
     "static/media/volcanic.png": "./static/media/volcanic.0575b08afcd8ab4af9cb.png",
     "static/media/munescopeta.png": "./static/media/munescopeta.c8c0d5a03f77c64be99e.png",
     "static/media/recortada.png": "./static/media/recortada.0ab05e3c4e8db5563238.png",
@@ -34,12 +38,13 @@
     "static/media/cattleman.png": "./static/media/cattleman.35634eb82525901a2050.png",
     "static/media/dobleaccion.png": "./static/media/dobleaccion.6f9c1357285aa1bc0e3f.png",
     "static/media/munrepeticion.png": "./static/media/munrepeticion.b92443a8e633d712ba96.png",
+    "static/media/bar.png": "./static/media/bar.2ab8d77956481ad160bc.png",
     "index.html": "./index.html",
-    "main.25f9eaa2.css.map": "./static/css/main.25f9eaa2.css.map",
-    "main.143c7883.js.map": "./static/js/main.143c7883.js.map"
+    "main.5616755f.css.map": "./static/css/main.5616755f.css.map",
+    "main.a7e156f5.js.map": "./static/js/main.a7e156f5.js.map"
   },
   "entrypoints": [
-    "static/css/main.25f9eaa2.css",
-    "static/js/main.143c7883.js"
+    "static/css/main.5616755f.css",
+    "static/js/main.a7e156f5.js"
   ]
 }
